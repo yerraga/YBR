@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "874921950345",
+    "project_id": "your-buddy-reviews",
+    "storage_bucket": "your-buddy-reviews.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874921950345:android:acd7c9bfee7341173cda58",
+        "android_client_info": {
+          "package_name": "com.example.yourbuddyreviews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874921950345-437vsm35td2s2lpaurkf66hkjqqlnkqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2vsWOww_ytxH2OqF1_U2PEZXQSU3Xg94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874921950345-437vsm35td2s2lpaurkf66hkjqqlnkqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
