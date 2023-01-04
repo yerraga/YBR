@@ -7,6 +7,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
+import com.example.yourbuddyreviews.LoginActivity;
 import com.example.yourbuddyreviews.MainActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -69,5 +70,12 @@ public class FirebaseUtilities {
             }
         });
 
+    }
+    public void logout(){
+        firebaseAuth.signOut();
+        Toast.makeText(context, "Logged out successfully", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(context, LoginActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        context.startActivity(intent);
     }
 }
